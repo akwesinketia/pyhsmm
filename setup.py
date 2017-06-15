@@ -11,6 +11,7 @@ from glob import glob
 import tarfile
 import shutil
 
+import future
 from future.standard_library import install_aliases
 install_aliases()
 from urllib.request import urlretrieve
